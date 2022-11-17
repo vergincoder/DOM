@@ -1,0 +1,15 @@
+.red-square__block{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+}
+.block__smiles{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.smiles__inp{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

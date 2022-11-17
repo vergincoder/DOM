@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>JavaScript</title>
+</head>
+<body onload="timerZ46()"> <!-- onload="intervlZ43()"  -->  <!-- onload="timer()" -->
+    1 
+    <div class=""><button onclick="alert('Привет!')">Нажми на меня!</button></div>
+    <br><br>
+    2
+    <div class=""><button onmouseover="alert('Привет!')">Нажми на меня!</button></div>
+    <br><br>
+    3
+    <div class=""><button ondblclick="alert('Привет!')">Двойной счелчок по мне!</button></div>
+    <br><br>
+    4
+    <div class="red-square__block"onmouseout="alert('Привет')">
+        Наведи на меня мышь - а потом убери!
+    </div>
+    <br><br>
+    5
+    <div class=""><input type="text" id="inputZ5" value="Ку-ку">
+        <button onclick="buttonClickZ5()">Тыкни на меня</button>
+    </div>
+    <br><br>
+    6
+    <div class=""><input type="text" id="inputZ6" value="Ку-ку">
+        <button onclick="buttonClickZ6()">Нажми на меня</button>
+    </div>
+    <br><br>
+    7
+    <div class=""><img src="./assets/img/Mouse-Control-1080x675.jpg" alt="img" id="imgZ7" width="200px">
+    <button onclick="buttonClickZ7()">Нажми на меня</button></div>
+    <br><br>
+    8
+    <div class=""><input type="text" onfocus="buttonClickZ8(this)"value="Нажми на меня!"></div>
+    <br><br>
+    9
+    <div class=""><input type="text" value="Нажми на меня!" onclick="buttonClickZ9(this)"></div>
+    <br><br>
+    10
+    <div class="">
+    <input style="width: 200px" type="text" value="Нажми на меня!" onfocus="buttonClickZ10(this)" onblur="stopZ10(this)">
+    </div>
+    <br><br>
+    11
+    <div class="">
+    <p>Это input type="submit."</p>
+    <input type="submit" value="Нажми на меня!" onclick="buttonClickZ11(this)">
+    </div>
+    <br><br>
+    
+    12
+    <div class="">
+    <p>Это input type="submit."</p>
+    <input style="width: 300px"type="submit" value="Нажми на меня!" onclick="buttonClickZ12(this)">
+    </div>
+    <br><br>
+    13
+    <div class="">
+    <img style="width: 300px; height: 300px;" src="./assets/img/322868_1100-800x825.jpg" alt="img" onmouseover="overZ13(this)" onmouseout="outZ13(this)"> 
+    </div>
+    <br><br>
+    14
+    <div class="">
+    <input type="text" value="Ку-ку" id="inputZ14">
+    <button onclick="buttonClickZ14()">Нажми на меня!</button>
+    </div>
+        <br><br>
+    15
+    <div class="">
+    <input type="text" value="Ку-ку" id="inputZ15">
+    <button onclick="buttonClickZ15()">Нажми на меня!</button>
+    <button onclick="buttonClick2Z15()">Потом нажми на меня!</button>
+    </div>
+    <br><br>
+    16
+    <div class="">
+    <input type="text" value="Ку-ку" id="inputZ16">
+    <button onclick="buttonClickZ16()">Нажми на меня!</button>
+    </div>
+        <br><br>
+    17
+    <div class="">
+    <p>Это input type="submit."</p>
+    <input type="submit" value="Нажми на меня!" onclick="blockerZ17(this)" id="blockerZ17id">
+    <input type="submit" value="Нажми,чтобы отблокировать элемент" onclick="unblockerZ17('button')" id="unblockerZ17" style="display: none;">
+    </div>
+    <br><br>
+    <br><br>
+    18
+    <div class="">
+    <p>Кнопка считает кол-во нажатий по ней.</p>
+    <input type="submit" onclick="buttonClickZ18(this)" value="0" style="width: 150px;"> 
+    </div>
+    <br><br>
+    <br><br>
+    19
+    <div class="">
+    <input type="text" value="Ку-ку" id="inputZ19"></input>
+    <button onclick="buttonClickZ19()">Нажми на меня!</button>
+    </div>
+    <br><br>
+    <br><br>
+    20
+    <div class="">
+    <input type="text" value="Ку-ку" id="inputZ20" class="eee www ddd" style="width: 200px">
+    <button onclick="buttonClickZ20()">Нажми на меня!</button>
+    </div>
+    <br><br>
+    <br><br>
+    21
+    <div class="">
+    <input type="text" value="Привет" id="helloZ21">
+    <input type="text" value="Пока" id="byeZ21">
+    <button onclick="buttonClickZ21()">Нажми на меня!</button>
+    </div>
+    <br><br>
+    <br><br>
+    22
+    <div class="">
+    <p>По нажатию на кнопку в нижнем инпуте появится квадрат числа из верхнего инпута.</p>
+    <input type="text" id="inpZ22" value placeholder="Введите число!">
+    <input id="inp2Z22" value="Здесь появится результат." disabled>
+    <button onclick="buttonClickZ22()">Нажми на меня!</button> 
+    </div>
+    <br><br>
+    23
+    <div class="">
+    <p>По нажатию на кнопку в нижнем инпуте появится квадрат числа из верхнего инпута. Если введено не число - должна показаться ошибка.</p>
+    <input type="text" id="inpZ23" value placeholder="Введите число!">
+    <br>
+    <input id="resultZ23" value="Здесь появится результат." disabled>
+    <br>
+    <button onclick="buttonClickZ23()">Нажми на меня!</button> 
+        </div>
+    <br><br>
+    24
+    <div class="">
+        <p>Обратите внимание на курсор в различных состояниях.</p>
+        <input type="submit" onclick="buttonClickZ24(this)" value="Нажми на меня!">
+    </div>
+    <br><br>
+
+    25
+    <div class="">
+    <input type="text" value id="inputZ25">
+    <br>
+    <br>
+    <input type="submit" onclick="symZ25('+')" value="Я добавлю +"><br>
+    <input type="submit" onclick="symZ25('-')" value="Я добавлю -"><br>
+    <input type="submit" onclick="symZ25('/')" value="Я добавлю /"><br>
+    <input type="submit" onclick="symZ25('*')" value="Я добавлю *"><br>
+    <br>
+    <br>
+    <input type="submit" onclick="symZ25('1')" value="1">
+    <br>
+    <input type="submit" onclick="symZ25('2')" value="2">
+    <br>
+    <input type="submit" onclick="symZ25('3')" value="3">
+    <br>
+    <input type="submit" onclick="symZ25('4')" value="4">
+    <br>
+    <input type="submit" onclick="symZ25('5')" value="5">
+    <br>
+    <input type="submit" onclick="symZ25('6')" value="6">
+    <br>
+    <input type="submit" onclick="symZ25('7')" value="7">
+    <br>
+    <input type="submit" onclick="symZ25('8')" value="8">
+    <br>
+    <input type="submit" onclick="symZ25('9')" value="9">
+    <br>
+    <input type="submit" onclick="symZ25('0')" value="0">
+    <br> 
+    </div>
+    <br><br><br><br>
+
+
+    <b>Следующая ссылка</b>
+    <br><br>
+
+    1
+    <p id="parZ26">При нажатии на кнопку текст в абзаце поменяется.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ26()">
+    <br><br>
+
+    2
+    <p id="parZ27">При нажатии на кнопку текст в абзаце поменяется.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ27()">
+    <br><br>
+
+    3
+    <p id="parZ28">При нажатии на кнопку абзац станет h3, но текст останется.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ28()">
+    <br><br>
+
+    4
+    <input type="text" value="" id="inpZ29"> 
+	+
+    <input type="text" value="" id="inp2Z29">
+	=
+	<t id="resultZ29">?</t>
+    <br><br> 
+    <button onclick="buttonClickZ29()">Нажмите, чтобы сложить</button> 
+    <br><br>
+
+    5
+    <p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+    <p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+    <p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+    <p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+    <h2>А я h2 и не поменяюсь!</h2>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ30()">
+    <br><br>
+
+    6
+    <h2 class="www">Заголовок с классом www.</h2>
+    <p class="www">Абзац с классом www.</p>
+    <p class="www">Абзац с классом www.</p>
+    <p>Просто абзац, не поменяется.</p>
+    <button onclick="buttonClickZ31()">Нажми на меня!</button>
+    <br><br>
+
+    7
+    <h2 class="Www">Заголовок с классом Www, не поменяется.</h2>
+    <p class="Www">Абзац с классом Www.</p>
+    <p class="Www">Абзац с классом Www.</p>
+    <p class="Www">Абзац с классом Www.</p>
+    <p>Просто абзац, не поменяется.</p>
+    <button onclick="buttonClickZ32()">Нажми на меня!</button>
+    <br><br>
+
+    8
+    <p id="parZ33" class="my-class">Абзац с class="my-class"</p>
+    <input type="submit" value="Нажми - и я выведу класс абзаца." onclick="buttonClickZ33()">
+    <br><br>
+
+    9
+    <p id="parZ34" class="my-class" style="color: red;">Абзац с class="my-class". Класс задает красный цвет.</p>        
+    <input type="submit" value="Нажми - и я выведу класс абзаца." onclick="inpZ34()" >
+    <input type="submit" value="Нажми - и я удалю атрибут class для абзаца." onclick="inp2Z34()">
+    <br><br>
+    
+    10
+    <p id="parZ35" class="my-class class">Абзац с class="my-class class". Класс "my-class" задает красный цвет.</p>
+    <input type="submit" value="Нажми - и я выведу класс абзаца." onclick="inpZ35()">
+    <input type="submit" value="Нажми - и я изменю атрибут class для абзаца на 'new-class'." onclick="inp2Z35()">
+    <br><br>
+
+    11
+    <input type="text" value="" placeholder="Введи в меня текст!" id="testZ36" onkeyup="txtZ36(this)">
+    <t id="textZ36"></t>
+    <br><br>
+
+    12
+    <a href="http://google.ru">ссылка 1</a>
+    <br>
+    <a href="http://amazon.com">ссылка 2</a>
+    <br>
+    <a href="http://yandex.ru">ссылка 3</a>
+    <br>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ37()">
+    <br><br>
+
+    13
+    <p id="parZ38">При нажатии на кнопку текст в абзаце поменяется.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ38(this)">
+    <br><br>
+
+    14
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ39()">
+    <br><br>
+
+    15
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <p>Абзац с текстом.</p>
+    <input type="submit" value="Нажмите на меня!" onclick="buttonClickZ40()">
+    <br><br><br><br>
+    
+    <b>Третья ссылка в JS</b>
+    <br><br><br><br>
+    
+    <b>Четвертая ссылка</b>
+    <br><br>
+    1
+    <div class=""><p id="counterZ41">0</p>
+        <input type="submit" value="Нажмите на меня!" id="inpZ41" onclick="buttonClickZ41()">
+    </div>
+    <br><br>
+
+    2 <div class="">    
+        <p id="counterZ42">0</p>
+        <input type="submit" value="Нажмите на меня!" id="inpZ42" onclick="buttonClickZ42()">
+        <input type="submit" value="Остановить таймер!" onclick="buttonClick2Z42()" id="inp2Z42" disabled="">
+    </div>
+    <br><br>
+
+    3
+    <div class="">
+        <p id="clockZ43" ></p>
+    </div>
+    <br><br>
+
+
+    4
+    <p id="runZ44">10</p> 
+    <p id="endZ44"></p>
+    <input type="submit"  onclick="buttonClickZ44()" id="inputZ44" value="Запустить таймер!">
+    <br><br>
+
+    5
+    <div id="blockZ46">
+        <img id="imgZ46" src="./assets/img/1.png" width="130px" height="130px" alt="img">
+    </div>
+    <br><br>
+
+    6
+    <div class="block__smiles">
+        <img id="img1Z47" src="./assets/img/1.png" alt="img" width="130px" height="130px">
+        <img id="img2Z47" src="./assets/img/2.png" alt="img" width="130px" height="130px">
+        <img id="img3Z47" src="./assets/img/3.png" alt="img" width="130px" height="130px">
+    </div>
+    <input class="smiles__inp"type="submit" value="Запустить карусель!" onclick="timerZ47()" id="inp">
+    <br><br>
+
+    7
+    <div class="block__smiles">
+    <img id="img1Z48" src="./assets/img/1.png" alt="img" width="130px" height="130px">
+    <img id="img2Z48" src="./assets/img/2.png" alt="img" width="130px" height="130px">
+    <img id="img3Z48" src="./assets/img/3.png" alt="img" width="130px" height="130px">
+    <img id="img4Z48" src="./assets/img/4.png" alt="img" width="130px" height="130px">
+    <img id="img5Z48" src="./assets/img/5.png" alt="img" width="130px" height="130px">
+    <img id="img6Z48" src="./assets/img/6.png" alt="img" width="130px" height="130px">
+    </div>
+    <input class="smiles__inp" type="submit" value="Запустить карусель!" onclick="timerZ48()" id="inpZ48"> 
+    <input class="smiles__inp" type="submit" value="Остановить карусель!" onclick="stopperZ48()" id="stopperZ48" disabled>
+    <br><br>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
